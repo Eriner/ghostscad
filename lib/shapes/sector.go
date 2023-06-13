@@ -7,8 +7,8 @@ import (
 	"math"
 
 	. "github.com/go-gl/mathgl/mgl64"
-	. "github.com/ljanyst/ghostscad/lib/degmath"
-	. "github.com/ljanyst/ghostscad/primitive"
+	. "github.com/eriner/ghostscad/lib/degmath"
+	. "github.com/eriner/ghostscad/primitive"
 )
 
 type Sector struct {

@@ -23,7 +23,7 @@ for your project and add GhostSCAD to it:
 
     mkdir design; cd design
     go mod init example.com/design
-    go get github.com/ljanyst/ghostscad
+    go get github.com/eriner/ghostscad
 
 Here's an example rendering a sphere of radius 10 and producing the appropriate
 OpenSCAD model in the `main.scad` file:
@@ -32,8 +32,8 @@ OpenSCAD model in the `main.scad` file:
 package main
 
 import (
-	. "github.com/ljanyst/ghostscad/primitive"
-	"github.com/ljanyst/ghostscad/sys"
+	. "github.com/eriner/ghostscad/primitive"
+	"github.com/eriner/ghostscad/sys"
 )
 
 func main() {
@@ -44,7 +44,7 @@ func main() {
 
 You can generate such a minimal program by running:
 
-    go run github.com/ljanyst/ghostscad/util/stub_generator -file-name blah.go
+    go run github.com/eriner/ghostscad/util/stub_generator -file-name blah.go
 
 Here's a slightly more elaborate example:
 
@@ -52,10 +52,10 @@ Here's a slightly more elaborate example:
 package main
 
 import (
-	"github.com/ljanyst/ghostscad/lib/shapes"
-	"github.com/ljanyst/ghostscad/sys"
+	"github.com/eriner/ghostscad/lib/shapes"
+	"github.com/eriner/ghostscad/sys"
 
-	. "github.com/ljanyst/ghostscad/primitive"
+	. "github.com/eriner/ghostscad/primitive"
 )
 
 func main() {
@@ -129,4 +129,4 @@ Happy hacking!
 [openscad]: https://openscad.org/
 [emacs]: https://www.gnu.org/software/emacs/
 [bp]: https://jany.st/post/2022-04-04-ghostscad-marrying-openscad-and-golang.html
-[rack]: https://github.com/ljanyst/tv-table-rack
+[rack]: https://github.com/eriner/tv-table-rack

@@ -3,4 +3,4 @@
 
 package shapes
 
-//go:generate go run github.com/ljanyst/ghostscad/util/tagged_method_generator
+//go:generate go run github.com/eriner/ghostscad/util/tagged_method_generator

@@ -1,4 +1,4 @@
-module github.com/ljanyst/ghostscad
+module github.com/eriner/ghostscad
 
 go 1.17
 

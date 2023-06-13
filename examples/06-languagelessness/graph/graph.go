@@ -3,8 +3,8 @@ package main
 import (
 	"math"
 
-	"github.com/ljanyst/ghostscad/lib/shapes"
-	"github.com/ljanyst/ghostscad/sys"
+	"github.com/eriner/ghostscad/lib/shapes"
+	"github.com/eriner/ghostscad/sys"
 
 	. "github.com/go-gl/mathgl/mgl64"
 )

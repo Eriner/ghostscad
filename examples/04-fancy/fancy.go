@@ -4,8 +4,8 @@ import (
 	"math"
 
 	. "github.com/go-gl/mathgl/mgl64"
-	. "github.com/ljanyst/ghostscad/primitive"
-	"github.com/ljanyst/ghostscad/sys"
+	. "github.com/eriner/ghostscad/primitive"
+	"github.com/eriner/ghostscad/sys"
 )
 
 func newColor() Primitive {

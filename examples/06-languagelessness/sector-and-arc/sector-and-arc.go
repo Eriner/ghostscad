@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/ljanyst/ghostscad/lib/shapes"
-	"github.com/ljanyst/ghostscad/sys"
+	"github.com/eriner/ghostscad/lib/shapes"
+	"github.com/eriner/ghostscad/sys"
 
-	. "github.com/ljanyst/ghostscad/primitive"
+	. "github.com/eriner/ghostscad/primitive"
 )
 
 func main() {

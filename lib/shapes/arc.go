@@ -4,7 +4,7 @@
 package shapes
 
 import (
-	. "github.com/ljanyst/ghostscad/primitive"
+	. "github.com/eriner/ghostscad/primitive"
 )
 
 type Arc struct {

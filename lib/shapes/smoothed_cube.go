@@ -5,7 +5,7 @@ package shapes
 
 import (
 	. "github.com/go-gl/mathgl/mgl64"
-	. "github.com/ljanyst/ghostscad/primitive"
+	. "github.com/eriner/ghostscad/primitive"
 )
 
 type SmootedCube struct {
